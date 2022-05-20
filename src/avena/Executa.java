@@ -8,7 +8,7 @@ import java.net.URLConnection;
 
 public class Executa {
    public static void main(String[] args) throws IOException {
-       URL url = new URL("https://www.claro.com.br");
+       URL url = new URL("https://...");
        URLConnection abreconexao = url.openConnection();
 
        BufferedReader leitor = new BufferedReader(new InputStreamReader(abreconexao.getInputStream()));
